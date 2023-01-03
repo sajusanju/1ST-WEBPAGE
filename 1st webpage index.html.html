@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness and Heath Care</title>
+</head>
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /* CSS reset */
+    body{
+        margin: 0px;
+        padding: 0px;
+        
+        background: url('https://www.build-review.com/wp-content/uploads/2021/04/Gym.jpg');
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+
+    
+    }
+
+    .left{
+        
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 12px;
+    }
+    .left img{
+        width: 70px;
+        filter: invert(100%);
+        margin: -27px 34px;
+        padding:  20px;
+        
+    }
+
+    .left div{
+        text-align: center;
+    }
+
+    .mid{
+        /* border: 2px solid rgb(6, 98, 8); */
+        display: block; 
+        width: 49%;
+        margin: 12px 311px;
+        text-align: center;
+       
+    }
+
+
+    .right{
+        /* border: 2px solid rgb(212, 233, 18); */
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 12px;
+    }
+    .navbar{
+        display: inline-block;
+    }
+
+    .navbar li{
+
+        display: inline-block;
+        font-size: 25px;
+      
+    }
+
+    .navbar li a{
+
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: aqua;
+    }
+
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 12px 12px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    .btn:hover{
+        background-color: rgb(28, 21, 21);
+    }
+    .container{
+
+        /* border: 2px solid rgb(20, 9, 76); */
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        display: block;
+        border-radius: 23px;
+        color: black;
+    }
+    .form input{
+        text-align: center;
+        display: block;
+        width: 308px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-size: 25px;
+        border-radius: 9px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 74%px;
+        text-align: center;
+        margin: 20px auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiAylbh0_ESPIegFiWKHeJ2iRMN_Bfn8uUGw&usqp=CAU" alt="">
+           <div>
+            Fitness and Health Care
+           </div>
+
+        </div>
+
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+        <ul class="navbar">
+            <li><a href="#">Home</a> </li>
+            <li><a href="#">About Us</a> </li>
+            <li><a href="#">Fitness Counter</a> </li>
+            <li><a href="#">Contact Us</a> </li>
+
+        </ul>
+        
+
+        </div>
+
+         <!-- right box for buttons -->
+        <div class="right">
+         <input class="btn" type="text" name="search" id="search" placeholder="Please search here">
+         <button class="btn">Contact Us</button>
+
+        </div>
+    </header>
+
+    <div class="container">
+       <h1>Join the best GYM</h1>
+       <form action="noaction.php">
+
+        <div class="form ">
+            <input type="text" name="" placeholder="Enter your name">
+
+        </div><br>
+
+        <div class="form ">
+            <input type="text" name="" placeholder="Enter your age">
+
+        </div><br>
+
+        <div class="form ">
+            <input type="text" name="" placeholder="Enter your Gender">
+
+        </div><br>
+
+        <button class="btn">submit now</button>
+       </form>
+    </div>
+    
+</body>
+</html>
